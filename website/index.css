@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
+    color:#fe019a;
+    background-color: #030303;
+  }
+  header {
+    padding: 3rem 0rem;
+  }
+  /* Variables */
+  :root {
+    --font-family: "Roboto", sans-serf;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #050505;
+    --primary-color: #fe019a;
+    --secondary-color: #ff7235;
+    --primary-shadow: #4e4e54;
+    --secondary-shadow: #a17a69;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+  }
+  
+  nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: #fe019a;
+  }
+  
+  nav ul li {
+    font-weight: var(--bold-font);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* CSS Resets */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  
+  a:hover {
+    color: var(--secondary-color);
+  }
+  
+  body {
+    font-family: var(--font-family);
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  nav h1 {
+    color: var(--primary-color);
+  }
+  
+  nav a {
+    color: var(--primary-color);
+    transition: var(--transition);
+  }
+  nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.9rem;
+  }
+  
+  nav ul li {
+    font-weight: var(--bold-font);
+  }
+  .burger-menu {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+    max-width: 180rem;
+    margin: auto;
+  }
+  .hero img {
+    height: 35rem;
+    width: 50rem;
+    padding-bottom: 3rem;
+    padding-top: 4rem;
+  }
+  .knowme {
+    max-width: 30.0rem;
+    margin: auto;
+    padding-top: 3rem;
+    border-radius: 6px;
+    text-align: center;
+    border: 2px solid #fe019a
+  }
+  .knowme h2 {
+    padding: 2rem;
+    border: none;
+    outline:none;
+    background: none;
+    margin-bottom: auto;
+    padding-bottom: 2rem;
+    padding-top: 6rem;
+  }
+  .knowme h3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  }
+  .knowme p {
+    line-height: var(--line-height);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 6rem;
+
+  }
+  .askquestion {
+    padding: 2rem;
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .askquestion-header {
+    margin-bottom: 1rem;
+  }
+  
+  .askquestion-wrapper img {
+    padding: 1.25rem;
+  }
+  input[type=text] , [type=email]  {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+  } 
+  textarea{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    text-align: center;
+  } 
+  input[type=submit] {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--bg-color);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  button {
+    background-color:var(--primary-color);
+    border-radius: 2rem;
+    border-style: dotted;
+    border-color: var(--secondary-shadow);
+    color: var(--bg-color);
+    padding-right: 1%;
+    padding-left: 1%;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  footer {
+    font-size: smaller;
+    padding: 5%;
+    text-align: center;
+  }
