@@ -56,4 +56,3 @@ Hosting Provider: [Niagahoster](https://www.niagahoster.co.id/), [Hostinger](htt
   ![domain setting](photo/domainsetting.png)
 - Scroll down > click Add a Domain > copy your custom domain
   ![add domain](photo/addomain.png)
--
